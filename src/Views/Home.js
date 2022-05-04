@@ -3,6 +3,7 @@ import { Background, Content } from "../Components/AppElements.js";
 import { ProjectSection, ProjectBlock } from "../Components/Portfolio/ProjectShowcase.js" 
 
 export default function Home() {
+    document.title = "You have landed on my portfolio.";
 
     return (
         <Background>

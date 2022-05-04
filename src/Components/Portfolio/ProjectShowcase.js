@@ -5,6 +5,7 @@ export const ProjectBlock = props => {
     const ProjContent = styled.div`
         display: inline-block;
         width: 25%;
+        min-width: 250px;
         text-align: center;
         margin: 10px;
         padding: 20px;
@@ -15,15 +16,19 @@ export const ProjectBlock = props => {
         }
     `;
 
+    const ProjImage = styled.img`
+        width: 80%;
+        max-width: 200px;
+        height: auto;
+    `
+
     return (
         <ProjContent
             onClick={() => { window.location.href = `${props.link}` }}
         >
-            <img
+            <ProjImage
                 src={props.src ? props.src : noimg}
                 alt=""
-                width="200"
-                height="auto"
             />
             <h3>{props.title}</h3>
             <p style={{ "overflow": "auto" }}>{props.desc}</p>

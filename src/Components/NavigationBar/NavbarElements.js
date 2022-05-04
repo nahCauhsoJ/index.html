@@ -52,6 +52,7 @@ export const NavToggle = props => {
     width: 30px;
     height: 30px;
     margin: 10px;
+    background: #888888;
   `;
 
   return (
