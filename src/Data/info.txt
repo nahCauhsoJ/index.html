@@ -1,0 +1,1 @@
+While I would like to try out API fetching, there's honestly no need to fetch one when it's so simple. a .json file here will do.
