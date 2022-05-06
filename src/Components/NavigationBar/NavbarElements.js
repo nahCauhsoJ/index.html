@@ -11,6 +11,17 @@ export const NavHeader = styled.div`
   width: 100%;
   height: 50px;
   background: #222222;
+  vertical-align: middle;
+`;
+
+export const NavIcon = styled.div`
+  display: flex;
+  height: 50px;
+  color: #888888;
+  margin-left: auto;
+  padding-right: 20px;
+  align-items: center;
+  white-space: nowrap;
 `;
 
 export const NavMenu = styled.div`

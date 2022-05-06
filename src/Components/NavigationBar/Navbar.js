@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavBar, NavHeader, NavToggle, NavMenu, NavLink, NavTint } from './NavbarElements.js';
+import { NavBar, NavHeader, NavToggle, NavMenu, NavLink, NavTint, NavIcon } from './NavbarElements.js';
 import styled from 'styled-components';
 
 export default function Navbar() {
@@ -11,6 +11,7 @@ export default function Navbar() {
         <NavBar>
             <NavHeader>
                 <NavToggle onClick={() => { ToggleNavBar() }} />
+                <NavIcon><label>GitHub:&nbsp;</label><a href="https://github.com/nahCauhsoJ">https://github.com/nahCauhsoJ</a></NavIcon>
             </NavHeader>
 
             {isExpanded &&
