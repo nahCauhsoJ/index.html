@@ -1,14 +1,17 @@
 {
   "files": {
     "main.css": "/index.html/static/css/main.e6c13ad2.css",
-    "main.js": "/index.html/static/js/main.a17b33fc.js",
+    "main.js": "/index.html/static/js/main.0b8b42ed.js",
+    "static/media/jessup_room_finder.jpg": "/index.html/static/media/jessup_room_finder.62c612285a99c071defc.jpg",
+    "static/media/matching_game.jpg": "/index.html/static/media/matching_game.5a0e365df93b0b166aba.jpg",
+    "static/media/coursework.png": "/index.html/static/media/coursework.64e51ea52a43b659cce1.png",
     "static/media/default.jpg": "/index.html/static/media/default.5116d193d4eeba8c596c.jpg",
     "index.html": "/index.html/index.html",
     "main.e6c13ad2.css.map": "/index.html/static/css/main.e6c13ad2.css.map",
-    "main.a17b33fc.js.map": "/index.html/static/js/main.a17b33fc.js.map"
+    "main.0b8b42ed.js.map": "/index.html/static/js/main.0b8b42ed.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.a17b33fc.js"
+    "static/js/main.0b8b42ed.js"
   ]
 }
