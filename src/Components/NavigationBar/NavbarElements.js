@@ -10,7 +10,7 @@ export const NavHeader = styled.div`
   display: flex;
   width: 100%;
   height: 50px;
-  background: #222222;
+  background: ${p => p.theme.color.header};
   vertical-align: middle;
 `;
 
@@ -63,7 +63,15 @@ export const NavToggle = props => {
     width: 30px;
     height: 30px;
     margin: 10px;
-    background: #888888;
+    background: ${p => p.theme.color.btn_normal};
+
+    &:hover {
+      background: ${p => p.theme.color.btn_hover};
+    }
+
+    &:active {
+      background: ${p => p.theme.color.btn_press};
+    }
   `;
 
   return (

@@ -13,10 +13,10 @@ const About = () => {
         <Background>
             <Content>
                 <h1>About Me</h1>
-                <p>I'll disclose more when I have time...</p>
                 <div style={{ "background": "rgba(255,255,255,0.3)", "padding": "20px" }}>
                     <Info>LinkedIn: <a href="https://www.linkedin.com/in/chanhauyim/">https://www.linkedin.com/in/chanhauyim/</a></Info>
                     <Info>Email: hau.chan@jessup.edu</Info>
+                    <Info>Phone: +1 (916) 298 3321</Info>
                 </div>
             </Content>
         </Background>

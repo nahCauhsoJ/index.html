@@ -1,4 +1,5 @@
-import noimg from '../../Data/Images/default.jpg'
+import noimg from '../../Data/Images/default.jpg';
+import { Text } from '../../Components/AppElements';
 import styled from 'styled-components';
 
 export const ProjectBlock = props => {
@@ -9,10 +10,15 @@ export const ProjectBlock = props => {
         text-align: center;
         margin: 10px;
         padding: 20px;
-        background: rgba(255,255,255,0.1);
+        background: ${p => p.theme.color.btn_normal_transparent};
         &:hover {
             cursor: pointer;
-            background: rgba(255,255,255,0.3);
+            background: ${p => p.theme.color.btn_hover_transparent};
+        }
+
+        &:active {
+            cursor: pointer;
+            background: ${p => p.theme.color.btn_press_transparent};
         }
     `;
 
@@ -30,8 +36,8 @@ export const ProjectBlock = props => {
                 src={props.src ? props.src : noimg}
                 alt=""
             />
-            <h3>{props.title}</h3>
-            <p style={{ "overflow": "auto" }}>{props.desc}</p>
+            <Text bold>{props.title}</Text>
+            <Text style={{ "overflow": "auto" }}>{props.desc}</Text>
         </ProjContent>
     )
 }
